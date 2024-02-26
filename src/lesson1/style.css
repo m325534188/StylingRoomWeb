@@ -1,0 +1,11 @@
+.title{
+    color:pink;
+    background-color: blue;
+    text-shadow: white, 500px;
+    font-family: cursive;
+}
+
+button{
+    height: 10%;
+    box-shadow: pink;
+}
