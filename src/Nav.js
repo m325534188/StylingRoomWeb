@@ -1,27 +1,22 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import About from "./About";
 import Shop from "./Shop";
+
 export default function Nav() {
     return (
         <>
-     
+        <div id="nav">
             <BrowserRouter>
-                <Link to="/About">About</Link>
-                <Link to="/Shop">Shop</Link>
-               
+               <div class="link" > <Link to="/About">אודות</Link> </div>
+                <div class="link"><Link to="/Shop">המוצרים שלנו</Link></div>
+              
                 <Routes>
                     <Route path="/About" element={<About></About>} />
                     <Route path="/Shop" element={<Shop></Shop>} />
                   
                 </Routes>
             </BrowserRouter>
-        
+        </div>
         </>
     )
 }
-
-{/* <Provider store={store}>
-          <ProductDetails></ProductDetails>
-          <h6>------------ Different Component ----------------</h6>
-          <ProductDetails2></ProductDetails2>
-        </Provider>  */}

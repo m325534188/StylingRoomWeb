@@ -34,3 +34,61 @@
     transform: rotate(360deg);
   }
 }
+.card {
+  width: 16%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+#container{
+  margin-left: 40px;
+
+  width: 100%;
+  margin-top:  100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#nav{
+  background-color: rgba(236, 205, 168, 0.863);
+  width: 100%;
+  height: 80px;
+  margin-top: -910px;
+}
+.link
+{
+  width: 10%;
+  color: black;
+  margin-top: 30px;
+  float: right;
+}
+.about{
+  margin-top: 100px;
+  font-family:"Fb Henryeta";
+  font-size: larger;
+}
+.card-img-about{
+  margin-left: 70px;
+   border-radius: 20%;
+}
+.bg-secondary{
+  width: 116%;
+  margin-left: -21px;
+  /* margin-right: 100px; */
+  font-family:"Bampi";
+  font-size:larger;
+  color: bisque;
+  background-color: rgb(182, 176, 176);
+  margin-top: 70px;
+
+}

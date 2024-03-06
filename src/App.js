@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Nav';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-
+import Nav from './Nav';
 
 export default function App() {
   const time = new Date();
@@ -13,7 +12,7 @@ export default function App() {
     <div className="App">
       <div className="App-header">
       <Provider store={store}>
-        <Navbar></Navbar>
+        <Nav></Nav>
         </Provider>
       </div>
     </div>
