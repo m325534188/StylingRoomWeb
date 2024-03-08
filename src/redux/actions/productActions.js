@@ -1,7 +1,7 @@
-export const decreaseQty = (id) => {
+export const decreaseQty = (index) => {
     return {
         type: "DECREASE_QTY",
-        id
+        index
     }
 
 }

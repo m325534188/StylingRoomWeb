@@ -6,9 +6,9 @@ export const addToCart=(newProduct)=>{
         newProduct
     } 
 }
-export const deleteFromCart=(Product)=>{
+export const deleteFromCart=(product)=>{
     return{
         type:"DELETE_FROM_CART",
-        Product
+        product
     }
 }
