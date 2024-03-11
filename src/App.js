@@ -3,6 +3,7 @@ import './App.css';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import Nav from './Nav';
+import GoToPayment from './GoToPayment';
 
 export default function App() {
   const time = new Date();

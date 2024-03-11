@@ -33,6 +33,10 @@
   to {
     transform: rotate(360deg);
   }
+}#button5,#button6,#button7{
+  margin-top: -70px;
+  background-color:  bisque;
+  margin-right: 1000px;
 }
 .card {
   width: 16%;
@@ -50,10 +54,10 @@
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
+  color:  rgb(95, 93, 93);
 }
 #container{
   margin-left: 40px;
-
   width: 100%;
   margin-top:  100px;
   display: flex;
@@ -67,7 +71,7 @@
   height: 80px;
   margin-top: -910px;
 }
-.link
+.link1
 {
   width: 10%;
   color: black;
@@ -84,6 +88,7 @@
   margin-left: 70px;
   border-radius: 20%;
 }
+
 .bg-secondary{
   width: 116%;
   margin-left: -21px;
@@ -101,4 +106,29 @@
 .card-title{
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family:"Bampi";
+}
+#button1,#button2{
+  width: 40px;
+  height: 49px;
+}
+.table {
+  direction: rtl;
+  font-family: "Bampi";
+  color:  rgb(95, 93, 93);
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 120px;
+  color: #212529;
+}
+#button4{
+  height: 80px;
+  width: 250px;
+  font-size: larger;
+}
+#button9{
+  width: 200px;
+}
+.card-text{
+  font-family:"Bampi";
 }

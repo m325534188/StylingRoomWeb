@@ -15,6 +15,8 @@ const cartReducer = (state = initialState, action) => {
                 return state
             }
             return state.filter((item) => item !== action.product)
+        case "DELETE_TOTAL_FROM_CART":
+            return state.filter((item) => item !== action.product)
         default: return state
     }
 

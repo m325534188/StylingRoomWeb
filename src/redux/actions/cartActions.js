@@ -12,3 +12,9 @@ export const deleteFromCart=(product)=>{
         product
     }
 }
+export const deleteTotal=(product)=>{
+    return{
+        type:"DELETE_TOTAL_FROM_CART",
+        product
+    }
+}
