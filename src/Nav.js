@@ -9,9 +9,9 @@ export default function Nav() {
         <>
         <div id="nav">
             <BrowserRouter>
-               <div class="link1" > <Link to="/About">אודות</Link> </div>
-                <div class="link1"><Link to="/Shop">המוצרים שלנו</Link></div>
-                <div class="link1"><Link to="/Cart"> עגלת הקניות</Link></div>
+               <div  className="link1" > <Link to="/About">אודות</Link> </div>
+                <div className="link1"><Link to="/Shop">המוצרים שלנו</Link></div>
+                <div className="link1"><Link to="/Cart"> עגלת הקניות</Link></div>
              
               
                 <Routes>

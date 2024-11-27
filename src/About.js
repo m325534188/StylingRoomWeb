@@ -20,9 +20,9 @@ export default function About() {
             </p>
             
 
-            <img class="card-img-about" src={image1} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
-            <img class="card-img-about" src={image2} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
-            <img class="card-img-about" src={image3} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
+            <img className="card-img-about" src={image1} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
+            <img className="card-img-about" src={image2} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
+            <img className="card-img-about" src={image3} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
             
             
             <p>

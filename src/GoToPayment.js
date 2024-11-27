@@ -12,7 +12,7 @@ export default function GoToPayment() {
     const totalAmount = cart.reduce((acc, cart) => acc + (cart.qtyCart * cart.price), 0);
     return (
         <>
-            <table class="table">
+            <table className="table">
                 <thead>
                     <tr>
                         <th scope="col">שם</th>
@@ -26,13 +26,13 @@ export default function GoToPayment() {
 
                         <td>{item.name}</td>
                         <td>{item.price}</td>
-                        <td><img class="card-img-top" src={item.image} alt="Card image cap" style={{ width: "100px", height: "120px" }}></img></td>
+                        <td><img className="card-img-top" src={item.image} alt="Card image cap" style={{ width: "100px", height: "120px" }}></img></td>
                         <td>{item.qtyCart}</td>
                     </tr>
                 )) : <h1>העגלה ריקה</h1>}
             </table>
             <div>סכום סופי {totalAmount}</div>
-            <button id="button9" type="button" class="bg-secondary" >שלם עכשיו</button>
+            <button id="button9" type="button" className="bg-secondary" >שלם עכשיו</button>
         
         </>
     )

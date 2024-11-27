@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Provider } from 'react-redux';
@@ -10,14 +11,14 @@ export default function App() {
   time.setSeconds(time.getSeconds() + 200);
 
   return (
-    <div className="App">
-      <div className="App-header">
-      <Provider store={store}>
-        <Nav></Nav>
-        </Provider>
+    <Provider store={store}>
+      <div className="App">
+        <div className="App-header">
+          <Nav />
+        </div>
       </div>
-    </div>
-  )
+    </Provider>
+  );
 }
 
 

@@ -13,7 +13,7 @@ export default function Cart() {
     const [rander,setRander]=useState(0)
     return (
         <>
-            <table class="table">
+            <table className="table">
                 <thead>
                     <tr>
                         <th scope="col">שם</th>
@@ -30,14 +30,14 @@ export default function Cart() {
 
                         <td>{item.name}</td>
                         <td>{item.price}</td>
-                        <td><img class="card-img-top" src={item.image} alt="Card image cap" style={{ width: "100px", height: "120px" }}></img></td>
-                        <td><button id="button1" type="button" class="bg-secondary" onClick={() => { dispatch(decreaseQty(item.id)); dispatch(addToCart(item)) ; setRander(rander+1) }} >+</button></td>
+                        <td><img className="card-img-top" src={item.image} alt="Card image cap" style={{ width: "100px", height: "120px" }}></img></td>
+                        <td><button id="button1" type="button" className="bg-secondary" onClick={() => { dispatch(decreaseQty(item.id)); dispatch(addToCart(item)) ; setRander(rander+1) }} >+</button></td>
                         <td>{item.qtyCart}</td>
-                        <td><button id="button2" type="button" class="bg-secondary" onClick={() => { dispatch(deleteFromCart(item)); dispatch(addQty(item.id)); setRander(rander+1) }} >-</button></td>
-                        <td><button id="button3" type="button" class="bg-secondary" onClick={() => { dispatch(deleteTotal(item)); }} >מחק</button></td>
+                        <td><button id="button2" type="button" className="bg-secondary" onClick={() => { dispatch(deleteFromCart(item)); dispatch(addQty(item.id)); setRander(rander+1) }} >-</button></td>
+                        <td><button id="button3" type="button" className="bg-secondary" onClick={() => { dispatch(deleteTotal(item)); }} >מחק</button></td>
                     </tr>
                 )) : <h1>העגלה ריקה</h1>}   </table>
-      <button id="button4" type="button" class="bg-secondary" onClick={() => {navigate("/GoToPayment") }}>עבור לתשלום</button>      
+      <button id="button4" type="button" className="bg-secondary" onClick={() => {navigate("/GoToPayment") }}>עבור לתשלום</button>      
       </>  
     )
                 

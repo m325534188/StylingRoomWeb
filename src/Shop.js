@@ -11,13 +11,13 @@ export default function Shop() {
     <div id="container">
       {products ? products.map((item, index) => (
         <>
-          <div class="card" /*style="width: 18rem;"*/>
-          <h5 class="card-title">{item.name}</h5>
-            <img class="card-img-top" src={item.image} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
-              <div class="card-body">
-                <p class="card-text">{item.price} :מחיר</p>
+          <div className="card" /*style="width: 18rem;"*/>
+          <h5 className="card-title">{item.name}</h5>
+            <img className="card-img-top" src={item.image} alt="Card image cap" style={{ width: "300px", height: "300px" }}></img>
+              <div className="card-body">
+                <p className="card-text">{item.price} :מחיר</p>
                 <p id="description">{item.description}</p>
-                <button type="button" class="bg-secondary" onClick={() => { dispatch(addToCart(item)); dispatch(decreaseQty(index)) }}>
+                <button type="button" className="bg-secondary" onClick={() => { dispatch(addToCart(item)); dispatch(decreaseQty(index)) }}>
                   הוסף לעגלה
                 </button>
           </div>
